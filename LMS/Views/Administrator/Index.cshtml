@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdministratorLayout.cshtml";
+}
+
+<h2>Departments</h2>
+
+<ul id="lstDepartments">
+</ul>
+
+
+
+
+
+@section Scripts
+  {
+  <script type="text/javascript">
+
+    LoadData();
+
+
+    function PopulateList(lst, departments) {
+
+      departments.sort(function (a, b) {
+        return a.subject.localeCompare(b.subject);
+
+      });
+
+      $.each(departments, function (i, item) {
+        var li = document.createElement("li");
+        var td = document.createElement("td");
+        var a = document.createElement("a");
+        a.setAttribute("href", "/Administrator/Department/?subject=" + item.subject);
+        a.appendChild(document.createTextNode(item.subject));
+        li.appendChild(a);
+        lst.appendChild(li);
+      });
+
+      tbl.appendChild(newBody);
+
+    }
+
+    function LoadData() {
+
+      var lst = document.getElementById("lstDepartments");
+
+      $.ajax({
+        type: 'POST',
+        url: '@Url.Action("GetDepartments", "Common")',
+        dataType: 'json',
+        success: function (data, status) {
+
+          PopulateList(lst, data);
+
+          //alert(JSON.stringify(data));
+          
+        },
+        error: function (ex) {
+          var r = jQuery.parseJSON(response.responseText);
+          alert("Message: " + r.Message);
+          alert("StackTrace: " + r.StackTrace);
+          alert("ExceptionType: " + r.ExceptionType);
+        }
+        });
+    }
+
+  </script>
+}
+
+

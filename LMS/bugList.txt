@@ -1,0 +1,14 @@
+Main Menu - Registering for an account will show red 'User name u000xxxx is already taken even though it successfully creates an account.'
+
+Professor Controller:
+	GetSubmissionsToAssignment(): Returns nothing
+	GradeSubmission(): Can't Test
+
+Common Controller:
+	GetAssignmentContents(): Can't Test
+
+Student:
+	GetAssignmentsInClass(): Still shows "quiz, Test"
+	GetGPA(): Broken
+
+

@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\steen\\Desktop\\CS5530S19\\Phase 3\\XUnitTestProject1\\XUnitTestProject1.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

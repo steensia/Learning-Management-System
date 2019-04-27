@@ -1,0 +1,6 @@
+C:\Users\Jonathan\Documents\School\CS5530\CS5530S19\Phase 3\LMS\obj\Debug\netcoreapp2.1\LMS.csprojAssemblyReference.cache
+C:\Users\Jonathan\Documents\School\CS5530\CS5530S19\Phase 3\LMS\obj\Debug\netcoreapp2.1\LMS.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Documents\School\CS5530\CS5530S19\Phase 3\LMS\obj\Debug\netcoreapp2.1\LMS.RazorAssemblyInfo.cache
+C:\Users\Jonathan\Documents\School\CS5530\CS5530S19\Phase 3\LMS\obj\Debug\netcoreapp2.1\LMS.RazorAssemblyInfo.cs
+C:\Users\Jonathan\Documents\School\CS5530\CS5530S19\Phase 3\LMS\obj\Debug\netcoreapp2.1\LMS.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Documents\School\CS5530\CS5530S19\Phase 3\LMS\obj\Debug\netcoreapp2.1\LMS.AssemblyInfo.cs
